@@ -32,7 +32,7 @@ To run the notebook, simply clone the repository and open it with your preferred
 
 ## Conclusion
 
-- GradientBoostingClassifier(min_samples_leaf=2, min_samples_split=10) is the best model because the median precision is high, and the standard deviation of the precision is low.
+- ExtraTreesClassifier(min_samples_leaf=2, min_samples_split=10) is the best model because it has the highest precision.
 - These two questions give the most information about a customer's happiness, and should be of utmost importance to the company to improve current customer experience. Also, the company should simplify the survey to these two questions to scale its distribution:
     - Was my order delivered on time?
     - Did the app make ordering easy for me?
